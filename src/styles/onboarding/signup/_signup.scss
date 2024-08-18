@@ -1,0 +1,55 @@
+.signup-container {
+  width: 100vw;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .inside-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 8px;
+    backdrop-filter: blur(40px);
+
+    .label {
+      font-size: 20px;
+      font-weight: 500;
+    }
+    .label-dark {
+      font-size: 20px;
+      font-weight: 500;
+      color: whitesmoke;
+    }
+    .inp-container {
+      padding: 10px;
+    }
+    .input {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+    }
+    .input-password {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      .inside-input {
+        color: red;
+      }
+    }
+    .btn {
+      width: 100%;
+      padding: 10px;
+      background-color: gray;
+    }
+  }
+  .dark {
+    border: 2px solid whitesmoke;
+  }
+}
